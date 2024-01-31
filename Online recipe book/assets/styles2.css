@@ -1,0 +1,33 @@
+body {
+    background: url('https://media.istockphoto.com/id/1162090981/photo/wood-table-top-on-blur-kitchen-counter-background.webp?b=1&s=170667a&w=0&k=20&c=q5hdnoJjRX_A1mKMP9JrcyhAsBhEGgj6XhcGaPT0mOQ=') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+  }
+  img {
+    border-radius: 50px;
+    width: 25%;
+  }
+
+  #recipeDescription {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family:cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #instructions {
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px dashed black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .footer {
+    /* background-color: #d7e6f5; */
+    padding: 20px 0;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }

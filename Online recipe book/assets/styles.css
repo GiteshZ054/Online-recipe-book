@@ -1,0 +1,44 @@
+body {
+  background: url('https://images.unsplash.com/photo-1606913079621-e64bd28682ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container-fluid {
+  padding: 20px;
+}
+.recipe-search {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#recipeGrid {
+  margin-top: 20px;
+  padding-left: 4%;
+
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  opacity: 0.81;
+  overflow: hidden;
+  max-width: 390px;
+  margin-bottom: 10px;
+  transition: transform 0.4s;
+}
+.card:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+img {
+  max-width: 60%;
+  max-height: 280px;
+  align-self: center;
+  padding-top: 15px;
+  border-radius: 30px;
+}
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
